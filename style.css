@@ -1,0 +1,757 @@
+body {
+  box-sizing: border-box;
+  background-color: #f8f9fa !important;
+}
+
+a {
+  color: #0645ad !important;
+}
+
+.sidebar {
+  max-width: 180px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar div {
+  padding: 0 27px 0 27px;
+  font-size: 12px;
+  line-height: 1.6em;
+  display: block;
+}
+
+.logo {
+  padding-left: 22px !important;
+  margin-bottom: 27px;
+}
+
+.sidebar div a {
+  color: #0645ad;
+}
+
+.category {
+  margin-top: 15px;
+  color: #54595d;
+}
+
+.category h3 {
+  font-size: 12px !important;
+  margin: 0;
+  cursor: default;
+}
+
+.category hr {
+  margin: 2px 0 5px 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #f2f2f2, #cccccc, #f2f2f2);
+  border: 0;
+}
+
+.sidebar .category h3 button {
+  border: none;
+  background-color: inherit;
+  padding: 0 0 0 45px;
+  color: #72777D;
+  cursor: pointer;
+}
+
+.star {
+  padding-left: 13px !important;
+}
+
+.gold-star {
+  color: #fcbe24;
+  padding-right: 5px;
+}
+
+.gray-star {
+  color: #6c6c6c;
+  padding-right: 5px;
+}
+
+.languages {
+  background-color: #f8f9fa;
+  background-image: url(https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/language-base20.svg?b7954);
+  background-position: left 4px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 4px 0 8px;
+  padding: 4px 8px 4px 26px;
+  font-size: 13px;
+  cursor: pointer;
+  min-height: 32px;
+  min-width: 4em;
+  max-width: 28.75em;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+}
+
+.edit-links {
+  text-align: right;
+}
+
+.edit-links a {
+  color: #717171 !important;
+}
+
+.edit-links a:hover {
+  color: #0645ad !important;
+}
+
+.edit-links i {
+  padding-right: 2px;
+}
+
+.body-text {
+  margin-left: 180px;
+  font-size: 18px;
+}
+
+.interaction-bar {
+  float: right;
+}
+
+.interaction-option {
+  font-size: 12px;
+  padding: 2px 0 0 10px;
+}
+
+.interaction-bar .navbar-nav li a {
+  color: #0645ad;
+}
+
+.fa-user {
+  margin-right: 5px;
+  color: #54595d;
+}
+
+.navbar {
+  padding: .5rem 15px !important;
+}
+
+.active, .not-active {
+  border-right: 1px solid #a7d7f9;
+  border-top: 1px solid #f8f9fa;
+  border-radius: 1px !important;
+  font-size: 13px;
+  padding: 5px 8px 9px 8px !important;
+}
+
+.active {
+  color: black !important;
+  background-image: linear-gradient(to bottom, #f8f9fa, #fff, #fff) !important;
+  border-left: 1px solid #a7d7f9;
+}
+
+.not-active {
+  color: #0645ad;
+  background-image: linear-gradient(to bottom, #f8f9fa, rgb(235, 243, 249), rgb(235, 243, 249)) !important;
+}
+
+.left-side, .right-side {
+  margin-top: 5px;
+  padding-bottom: 0 !important;
+}
+
+.right-side {
+  padding: 8px 0 0 130px !important;
+  max-width: 100%;
+}
+
+.navigation {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #a7d7f9;
+}
+
+.search-bar {
+  border: 1px solid #adb3ba !important;
+  float: right;
+  max-height: 30px;
+  background-color: #fff;
+}
+
+.search a {
+  padding: 0 0 0 10px !important;
+}
+
+.search-bar input {
+  border: 1px solid #fff;
+  padding-right: 100px;
+  font-size: 0.8125em;
+  max-height: 30px;
+  width: 280px !important;
+}
+
+.search-bar button {
+  float: right;
+  background-color: #fff;
+  border: 1px solid #fff;
+  max-height: 28px;
+}
+
+.nopadding {
+  padding: 0 !important;
+}
+
+.containerr {
+  padding: 20px 24px 24px 24px !important;
+  margin: 0 !important;
+  background-color: #fff;
+  border-left: 1px solid #a7d7f9;
+  border-bottom: 1px solid #a7d7f9;
+}
+
+.page-name h1 {
+  font-size: 28.8px;
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+}
+
+.about {
+  clear: left;
+}
+
+.containerr hr {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.about p {
+  margin: 0 0 15px 0;
+  font-size: 12.88px;
+  color: #202122;
+  font-family: sans-serif;
+}
+
+.about i {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #202122;
+  margin-left: 22.4px
+}
+
+.intro {
+  margin-top: 10px;
+}
+
+.intro p {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #202122;
+  margin: 7px 0 7px 0;
+  line-height: 1.6;
+}
+
+.info-table, .contents-table, .islam-table {
+  border: 1px solid #a2a9b1;
+  text-align: center;
+  margin: 0.5em 0 0.5em 1em;
+  float: right;
+  clear: right;
+}
+
+.info-table {
+  border-spacing: 3px;
+  width: 250px;
+  line-height: 1.5em;
+}
+
+.infobox-above {
+  font-size: 15.4px;
+  font-family: sans-serif;
+}
+
+.infobox-image a img {
+  margin: 1px 0 1px 0;
+}
+
+.infobox-header, .infobox-label, .infobox-data {
+  font-size: 12.32px;
+  font-family: sans-serif;
+}
+
+.infobox-label, .infobox-data {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.contents-table, .islam-table {
+  width: 270px;
+  background-color: #f8f9fa;
+}
+
+.contents-table th a {
+  font-size: 16px;
+  color: #202122 !important;
+}
+
+.contents-table img {
+  margin: 3px 0;
+}
+
+.contents-table p {
+  margin: 1px 0;
+}
+
+.list-title p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contents-table .row {
+  background-color: lavender;
+  margin: 2.5px 12px;
+}
+
+.contents-table span {
+  font-size: 12px;
+}
+
+.tail p {
+  font-size: 12px;
+}
+
+.tail a {
+  color: #0645ad;
+  font-weight: bold;
+}
+
+.index {
+  text-align: right;
+  word-spacing: -0.125em;
+}
+
+.index p {
+  font-size: 10px;
+  margin: 0 12px 5px 0;
+}
+
+.contents {
+  border: 1px solid #a2a9b1;
+  width: 320px;
+  background-color: #f8f9fa;
+}
+
+.contents th {
+  text-align: center;
+}
+
+.contents th p {
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.contents th span {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.contents td {
+  padding: 7px 7px 0 7px !important;
+}
+
+.contents ol {
+  counter-reset: item;
+  padding-left: 25px;
+  line-height: 1.6;
+}
+
+.contents li {
+  display: block;
+  font-size: 13.3px;
+  font-family: sans-serif;
+  color: #202112;
+}
+
+.contents li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.containerr h2 {
+  font-size: 21px;
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  line-height: 1.3;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.containerr h3 {
+  font-family: sans-serif;
+  margin: 15px 0 0 0;
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+}
+
+.containerr h4 {
+  font-family: sans-serif;
+  margin: 15px 0 0 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+.italic-text {
+  padding-left: 1.6em;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #202122;
+}
+
+.quran-table {
+  border: 1px solid #a2a9b1;
+  margin: 5px 0 1.3em 1em;
+  float: right;
+  clear: right;
+  width: 50px;
+}
+
+.quran-table th, .quran-table-left th {
+  padding: 3px 3px 0 3px;
+}
+
+.quran-table td, .quran-table-left td {
+  background-color: #f8f9fa;
+  padding: 0 3px 3px 3px;
+}
+
+.quran-table td p, .quran-table-left td p {
+  font-size: 12.3px;
+  color: #202122;
+  margin: 0;
+  padding: 3px;
+  line-height: 1.4em;
+}
+
+blockquote {
+  padding: 8px 32px;
+  margin: 14px 0 !important;
+}
+
+.islam-table .row .left-item a {
+  float: left;
+  clear: left;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+
+.islam-table .row .right-item a {
+  float: right;
+  clear: right;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-right: 5px;
+}
+
+.islam-table .row {
+  background-color: #dcf5dc;
+  margin: 0 2px 5px 2px;
+  line-height: 1.2em;
+}
+
+.islam-table .green-background {
+  background-color: #dcf5dc;
+}
+
+.islam-table .pre-title {
+  padding-top: 5px;
+  line-height: 1.2em;
+  font-size: 12.5px;
+  color: #202122;
+}
+
+.islam-table th .title {
+  font-size: 17.8px;
+}
+
+.item-information {
+  padding: 0 2px 5px 2px;
+}
+
+.item-information p {
+  margin: 0;
+  font-size: 12.32px;
+}
+
+.islam-table .portal-list {
+  font-size: 12.32px;
+  font-weight: bold;
+  padding: 1.25px 5px 5px 3.7px;
+  border: 1px solid #aaa;
+}
+
+.islam-table .index {
+  font-size: 12.5px;
+  font-family: sans-serif;
+  padding: 8.5px 3px 1px 1px;
+}
+
+.islam-table .index p {
+  margin: 0;
+}
+
+.gallery-item {
+  border: 1px solid #aaa;
+  text-align: center;
+  margin-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f8f9fa;
+}
+
+.gallery {
+  padding: 0 20px;
+}
+
+.gallery-text p {
+  font-size: 13.16px;
+}
+
+.gallery-text {
+  padding-left: 6px;
+}
+
+.quran-table-left {
+  border: 1px solid #a2a9b1;
+  margin: 5px 1em 1.3em 0;
+  float: left;
+  clear: left;
+  width: 50px;
+}
+
+.gallery-text {
+  font-size: 13.16px !important;
+  color: #202112 !important;
+  text-align: center;
+}
+
+.see-also-list {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 30px;
+}
+
+.see-also-list a, .see-also-portal a {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.see-also-portal a {
+  font-size: 12.32px;
+  font-family: sans-serif;
+}
+
+.see-also-portal {
+  background-color: #fdfdfd;
+  border: 1px solid #adb3ba;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.4em 2em;
+}
+
+.see-also-portal ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.see-also-portal li {
+  display: inline;
+}
+
+.notes-list {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: 3.8px 0 6.3px 0;
+  line-height: 1.6;
+}
+
+.notes-list li {
+  font-size: 12.6px;
+  font-family: sans-serif;
+  color: #202122;
+  max-width: 600px;
+}
+
+u {
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
+.notes-list blockquote {
+  padding: 0 40px;
+  margin: 12px 0;
+}
+
+.citations-list {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  margin-top: 3.8px;
+  line-height: 1.6;
+}
+
+.citations-list ul {
+  list-style-type: disc;
+}
+
+.citations-list li {
+  font-size: 12.6px;
+  font-family: sans-serif;
+  color: #202122;
+  max-width: 385px;
+}
+
+.further-reading-list {
+  margin-bottom: 6.3px;
+  line-height: 1.6;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+.further-reading-list h3 {
+  font-size: 15.12px;
+  padding-left: 15px;
+}
+
+.further-reading-list li {
+  font-size: 12.6px;
+  font-family: sans-serif;
+  color: #202122;
+  max-width: 403px;
+}
+
+.further-reading-list i {
+  font-weight: normal !important;
+  font-size: 12.6px;
+  font-family: sans-serif;
+  color: #202122;
+  padding-left: 35px;
+}
+
+.last-quran-table {
+  background-color: #f9f9f9;
+  width: 236px;
+  border: 1px solid #a2a9b1;
+  margin: 5px 0 1.3em 1em;
+  float: right;
+  clear: right;
+}
+
+.last-quran-table th p {
+  text-align: center;
+  padding-top: 9.25px;
+  margin: 0;
+}
+
+.last-quran-table p {
+  padding: 0;
+  margin: 3px 9.5px;
+  font-size: 12.3px;
+}
+
+.external-links ul {
+  padding: 4.200px 0 0 24px;
+}
+
+.external-links p {
+  margin: 0;
+}
+
+.external-links li {
+  font-size: 14px;
+}
+
+.other-resources {
+  border: 1px solid #c4c8cd;
+  padding: 3px 18px !important;
+}
+
+.resource {
+  background-color: #ccccff;
+}
+
+.categories {
+  border: 1px solid #c4c8cd;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 14px;
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+
+.categories ul {
+  display: inline;
+  padding: 0;
+}
+
+.categories li {
+  display: inline-block;
+  line-height: 1.25em;
+  border-left: 1px solid #a2a9b1;
+  margin: 0.125em 0;
+  padding: 0 0.5em;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.footer p {
+  padding: 6px 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #202122;
+}
+
+.footer a {
+  color: #0645ad;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.wikipedia-services {
+  list-style: none none;
+  margin: 0;
+  padding: 0;
+}
+
+.wikipedia-services li {
+  float: left;
+  margin-right: 12px!important;
+  line-height: 2;
+  color: #202122;
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 0.75em;
+}
+
+.footer-icons {
+  float: right;
+  list-style: none none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons li {
+  float: left;
+  margin-left: 6px!important;
+  line-height: 2;
+  text-align: right;
+  margin: 0;
+  padding: 0.5em 0;
+}
